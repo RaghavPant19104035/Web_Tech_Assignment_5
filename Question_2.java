@@ -1,5 +1,3 @@
-package assignment_5;
-
 import java.time.YearMonth;
 
 class Customer {
