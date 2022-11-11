@@ -1,0 +1,23 @@
+Ans-5)
+
+//Code
+public class Myclass
+{
+final static int x;
+
+static {
+x = 10;
+}
+public static void main(String[]
+args) {
+System.out.println(x);
+}
+}
+
+//Output
+10
+
+// Reason
+When Myclass class loads in the main memory static block is executed, 
+here 'x' is initialized as 10 in the static block.
+When System.out.println(x) is called output 10 is printed
